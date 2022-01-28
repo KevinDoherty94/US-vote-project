@@ -36,8 +36,10 @@ namespace US_vote_project
 
             if (DemocratVotes > RepublicanVotes)
                 return ("Biden");
-            else
+            else if (DemocratVotes < RepublicanVotes)
                 return ("Trump");
+            else 
+                return "draw";
         }
         
        
