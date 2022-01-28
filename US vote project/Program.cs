@@ -54,7 +54,7 @@ namespace US_vote_project
            
             state1.DemocratVotes = democratVotesCount;
             state1.RepublicanVotes = republicanVotesCount;
-            state1.TotalVotes = democratVotesCount + republicanVotesCount; 
+            
 
             return state1;
 

@@ -13,7 +13,7 @@ namespace US_vote_project
         public string Population { get; set; }
         public double DemocratVotes { get; set; }
         public double RepublicanVotes { get; set; }
-        public double TotalVotes
+        private double TotalVotes
         {
             get
             {
